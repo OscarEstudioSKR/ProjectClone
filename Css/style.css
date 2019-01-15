@@ -1,0 +1,12 @@
+contenedor{
+    display:grid;
+    grid-template-columns:repeat(12,1fr);
+    grid-template-rows:repeat(9, 1fr);
+
+}
+
+.fondo01{
+    grid-column:1/-1;
+    grid-row:1/5;
+    background:#4b7396;
+}
