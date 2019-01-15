@@ -20,7 +20,7 @@ main{
     align-content:center;
     padding-top:10vh;   
     height: 60%;
-    width: 60%;
+    width: 110vh;
     
 }
 nav{
@@ -29,18 +29,19 @@ nav{
 }
 .section1{
     width: 30%;
+    padding-right: 2vh;
 }
 .section2{
     width: 60%;
-    height:85%;
+    height:85vh;
     padding: 3vh;
     padding-top: 2vh;
-    align-items: stretch;
 }
 
 
 
 .image-moviles{
+    width:100%;
     height:100%;
 }
 
@@ -50,6 +51,7 @@ nav{
     width:100%;
     display:flex;
     flex-flow: row no-wrap;
+    padding-bottom:3vh;
 
     align-items:center;
     justify-content: space-between;   
@@ -63,6 +65,7 @@ nav{
     flex-flow: row no-wrap;
     align-items:center;
     justify-content: stretch;
+    border-color:#2e5c83;
 
 }
 
@@ -113,5 +116,20 @@ p{color: #5a5a5a;
 
 .botones-store{
     padding-left: 4vh;
-    padding-top:6vh;
+}
+
+@media(max-width: 900px){
+    .contenedor{
+        height:100vh;
+        width:100vw;
+        padding-top:0px;
+        margin:0px;
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(180deg,#567d9f,#376085);
+        background-size: 100% 37%;
+        background-repeat: no-repeat;
+    }
 }
