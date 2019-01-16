@@ -7,9 +7,8 @@
     flex-flow: row wrap;
     justify-content: center;
     align-items: flex-start;
-    background: linear-gradient(180deg,#567d9f,#376085);
     background-size: 100% 30%;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
 }
 
 main{
@@ -26,6 +25,7 @@ main{
 nav{
     width:100%;
     height:30%;
+    text-align: center;
 }
 .section1{
     width: 30%;
@@ -76,10 +76,9 @@ nav{
 }
 
 .estructure-text{
-    /*background-image: url("images/frame.png");*/
-    background: linear-gradient(180deg,#ffffff, rgba(255, 255, 255, 0));
-    background-size: 100%;
+    background: linear-gradient(180deg,#ffffff,#ffffff, rgba(255, 255, 255, 0));
     background-repeat: no-repeat;
+    background-size: 100%;
     padding:4vh;
     padding-top:2vh;
     border-radius: 0.5vh;
@@ -87,9 +86,11 @@ nav{
 
 
 h1{color: #0f385d;
+    font-size:3vh;
 }
 
 p{color: #5a5a5a;
+    font-size:2vh;
 }
 
 .menu-bar{
@@ -116,13 +117,12 @@ p{color: #5a5a5a;
 
 .botones-store{
     padding-left: 4vh;
+    height: 5vh;
 }
 
 @media(max-width: 900px){
-    .contenedor{
-        background: linear-gradient(180deg,#567d9f,#376085);
+    .contenedor{   
         background-size: 100% 65%;
-        background-repeat: no-repeat;
         display:flex;
     }
     .section1{
@@ -141,7 +141,7 @@ p{color: #5a5a5a;
         text-align: center;
         display:flex;
         flex-flow: row wrap;
-        padding-top: 30vh;
+        padding-top:40vh;
     
     }
     h1{color: #0f385d;
@@ -166,9 +166,8 @@ p{color: #5a5a5a;
     
 }
 
-@media(max-width: 600px){
+@media screen and (max-width: 700px) and (max-height: 700px){
     .menu-bar{
-        padding-top: 42vh;
-    
+        padding-top:5vh; 
     }
 }
