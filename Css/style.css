@@ -16,10 +16,9 @@ main{
     flex-flow: row wrap;
     justify-content: center;
     align-items: flex-start;
-    align-content:center;
-    padding-top:10vh;   
+    padding-top:5%;   
     height: 60%;
-    width: 110vh;
+    width: 100vh;
     
 }
 nav{
@@ -30,12 +29,12 @@ nav{
 .section1{
     width: 30%;
     padding-right: 2vh;
+    padding-top: 3vh;
 }
 .section2{
     width: 60%;
     height:85vh;
     padding: 3vh;
-    padding-top: 2vh;
 }
 
 
@@ -76,12 +75,11 @@ nav{
 }
 
 .estructure-text{
-    background: linear-gradient(180deg,#ffffff,#ffffff, rgba(255, 255, 255, 0));
+    background-image: url(/images/frame.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    padding:4vh;
-    padding-top:2vh;
-    border-radius: 0.5vh;
+    padding:8%;
+    padding-top:2%;
 }
 
 
@@ -90,7 +88,7 @@ h1{color: #0f385d;
 }
 
 p{color: #5a5a5a;
-    font-size:2vh;
+    font-size:1.7vh;
 }
 
 .menu-bar{
